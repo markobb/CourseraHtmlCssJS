@@ -16,6 +16,19 @@ section {
   border: 1px solid black;
 }
 
+p {
+  position: relative;
+  float: right;
+  width: 150px;
+  margin-left: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.25em;
+}
+
 .water {
   background-color: #b2eff2;
 }
@@ -26,22 +39,6 @@ section {
 
 .honey {
   background-color: #ff925b;
-}
-
-p {
-  position: relative;
-  float: right;
-  width: 150px;
-  /*position: absolute;
-  top: 0;
-  right: 0;*/
-  margin-left: 100%;
-  margin-bottom: 10px;
-  padding: 5px;
-  background-color: red;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 1.25em;
 }
 
 .div {
