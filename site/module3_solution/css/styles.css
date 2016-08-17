@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: red;
+  background-color: #FFF46E;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #A60E0E;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+	font-family: "Courier New", Courier, monospace;
+	color: #A60E0E;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #A60E0E;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #FFF46E;
+}
+
+#nav-list a span {
+	font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #3B3B3B;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+
+.navbar-default .navbar-collapse {
+	border: 0;
+}
+
+.navbar {
+	margin-bottom: 10px;
+}
+
+li > a {
+	border-bottom: 1px solid #3B3B3B;
+}
+
+ul {
+	background-color: #FFA810;
+	border-top: 1px solid #3B3B3B;
+	width: 100%;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-collapse {
+	width: 100%;
+	padding: 0;
+	border: 1px solid #3366ff;
+
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.our-menu-title {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #A60E0E;
+  font-weight: bold;
+}
+
+section {
+	margin-bottom: 30px;
+	margin-left: 30px;
+	height: 100%;
+}
+
+.sub-title {
+	padding-top: 10px;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+}
+
+.food {
+	background-color: #A60E0E;
+}
+
+.food > p {
+	color: #FFF46E;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.food > h3 {
+	color: #FFF46E;
+}
+
+p > a {
+	color: #FFA810;
+}
+
+p > a:hover, p > a:active {
+	text-decoration: none;
+}
+/* END OF HOME PAGE */
